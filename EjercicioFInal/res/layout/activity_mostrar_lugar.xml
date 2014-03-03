@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:gravity="right"
+    android:orientation="vertical" >
+
+
+		<Button
+		    android:id="@+id/BotonEditar_mostrarLugar"
+		    android:layout_width="wrap_content"
+		    android:layout_height="32dp"
+		    android:gravity="right"
+		    android:text="Editar" />
+    
+	<!-- INICIO DE TABLA -->
+		<TableLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:stretchColumns="0" >
+		
+		    
+	<!-- NOMRE -->
+		<TableRow>
+			<TextView
+			android:text="Nombre"
+			android:textColor="@android:color/black"/>
+		</TableRow>
+		<TableRow
+		    android:layout_gravity="left" >
+
+		   <TextView
+		       android:id="@+id/campoNombreMostrarLugar"
+		       android:layout_width="wrap_content"
+		       android:lines="2"
+		       android:text="El nombre del lugar,  asd asd adas asdasd as." />
+
+		</TableRow>
+	<!-- NOMRE -->
+	<!-- DESCRIPCION -->
+		<TableRow>
+			<TextView
+			android:text="Descripción "
+			android:textColor="@android:color/black"/>
+		</TableRow>
+		<TableRow
+		    android:layout_gravity="left" >
+
+		   <TextView
+		       android:id="@+id/campoDescripcionMostrarLugar"
+		       android:layout_width="wrap_content"
+		       android:lines="5"
+		       android:text="La descripcion de El nombre del lugar,  asd asd adas asdasd  asdasdasdasad asd asd as dasd ad asd asd asd as." />
+
+		</TableRow>
+	<!-- DESCRIPCION -->
+		
+	<!-- IMAGEN -->	
+		<TableRow >
+		<TextView
+			android:text="Imagen del lugar "
+			android:textColor="@android:color/black"/>
+		</TableRow>
+		    <TableRow>
+		<ImageView android:src="@drawable/ic_launcher"
+		    android:gravity="center"
+		    />
+		</TableRow>
+	<!-- IMAGEN -->	
+		</TableLayout>
+<!-- FIN TABLA -->		
+</LinearLayout>

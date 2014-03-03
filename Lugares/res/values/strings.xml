@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World EjercicoFinalActivity</string>
+    <string name="app_name">Gestion de Areas</string>
+    <string name="PagPrincipal">Seleccione una acción</string>
+    <string name="TextBoton1">Lista</string>
+    <string name="TextBoton2">Mapa</string>
+ 	<string name="TituloLista">Lista de lugares</string>
+    
+</resources>
